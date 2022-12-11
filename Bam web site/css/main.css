@@ -1,0 +1,226 @@
+* {box-sizing: border-box;}
+a{ text-decoration: none;}
+a{font-family: 'Roboto', sans-serif;}
+
+body{
+    padding-top: 30px;
+}
+
+.main{
+    height: 94px;
+    left: 402px;
+    right:400px ;
+    top: 80px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.container{
+   width: 1140px;
+   margin: 0px auto;  
+}
+
+h3.partTitle{
+    
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+    letter-spacing: -3px;
+    color:#012d49
+}
+
+.topTitle{
+    text-align: center;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 15px;
+     color: white;  
+     }
+
+div.mainText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    margin: 16px 0px;
+    color: #2f2c2c;
+}
+.row{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.mainNav{
+    width: 800px;
+    height: 72px;
+   
+   }
+
+.mainNav ul{ 
+    list-style-type: none;
+    display: flex;  
+}
+
+a.navLink{
+    display: block;
+    color: #012d49;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+a.navLink:hover {
+  border-bottom: 3px solid #000;
+  transition: all 0.3s;
+}
+.defaultButton{
+    display: block;
+    width: 150px;
+    height: 49px;
+    border-radius: 71px;
+    padding: 15px 30px;
+    background-color:#A7622B ;
+    text-decoration: none;
+    color: white;
+    font-family:Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+ .defaultButton:hover {
+    background-color: #d8721f;
+ }
+ /*cover başlangıcı*/
+ #cover {
+   width: 1140px;
+   margin-top: 71px;
+ }
+ div.coverText{
+    margin-top: 90px;
+    margin-right: 65px;
+    font-family: Roboto ,sans-serif;
+ }
+/**coverbitimi**/
+
+#ticketingCompany{
+    background-color: #012d49;
+    padding: 80px;
+}
+.containerTwo{
+    margin: auto;
+    width: 1140px;
+}
+h3.title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+    letter-spacing: -3px;
+    color: white;
+    text-align: center;
+}
+div.topTitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color:#ffff; 
+    text-align: center;
+}
+.mainText2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    margin: 16px 0px;
+    color:white;
+    text-align: center;
+}
+  #productDetail{
+    padding: 80px 0px;
+    background-color: #E6EAED;
+  }
+ 
+div.card{
+    width: 356px;
+    padding: 24px;
+    border: 1px solid rgb(209, 208, 208);
+    margin-bottom: 16px;
+}
+.cardText{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center; 
+
+}
+
+.cardTitle{
+     font-family: Roboto,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    color: #012d49;
+    margin-top: 16px;
+
+}
+.Learn{
+   margin: 20px auto;
+   height: 54px;
+   width: 218px;
+   font-size: 18px;
+   padding: 16px 60px;
+ 
+}
+.endText{
+    color: #012d49;
+}
+.solutionsImage{
+    width: 500px;
+    height: 620px;
+}
+
+div.boxs{
+
+    height: 320px;
+    width: 350px;
+    background-color: #012d49;
+    padding: 30px 30px;
+    color: white;
+    margin: 10px auto 80px;
+}
+.boxtopTitle{
+    font-size: 15px;
+    font-weight: 400px;
+    text-align: left;
+    font-family: Roboto,sans-serif;
+
+}
+.boxTitle{
+    font-size: 18px;
+    font-weight: 700px;
+    margin-top: 10px;
+    font-family: Roboto,sans-serif;
+    text-align: center;
+
+}
+.boxmainTitle{
+    font-size: 16px;
+    font-weight: 500px;
+    margin-top: 25px;
+    font-family: Roboto,sans-serif;
+    text-align: left;
+    line-height: 26px;
+
+}
+.rowBox{
+    width: 1140px;
+    display: flex;
+    margin: auto;
+}
